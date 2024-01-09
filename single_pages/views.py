@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from shop.models import Item, User
+from shop.models import Item
+
 
 # Create your views here.
 def home(request):
